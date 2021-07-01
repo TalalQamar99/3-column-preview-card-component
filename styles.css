@@ -1,10 +1,10 @@
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
-
+    html{
+        height: 100vh;
+    }
     .parent-div{
     display: flex;
-    /* flex-direction: row; */
-    height: 100vh;
     justify-content: center;
     align-items: center;
     }
@@ -96,32 +96,32 @@
 
     }
     .div-sedan{
-        height: 450px;
+        height: 450px !important;
         width: 300px;
         background-color:hsl(31, 77%, 52%) ;
         border-top-left-radius: 10px;
         border-bottom-left-radius:10px;
         }
     .div-luxury{
-        height: 450px;
+        height: 450px !important;
         width: 300px;
         background-color:hsl(179, 100%, 13%) ;
         border-top-right-radius: 10px;
         border-bottom-right-radius: 10px;
         }
     .div-suv{
-        height: 450px;
+        height: 450px !important;
         width: 300px;
         background-color:hsl(184, 100%, 22%) ;
         }
+    
     @media screen and (max-width: 375px) {
     .parent-div{
+        margin:0;
         display: flex;
-        height: 100vh;
-        flex-wrap: wrap;
-        flex-direction: column;
+        flex-direction: column ;
         justify-content: center;
         align-items: center;
             }
-           }
+    }
     
