@@ -1,0 +1,47 @@
+.attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    .parent-div{
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    }
+    .div-sedan{
+    height: 450px;
+    width: 300px;
+    background-color:hsl(31, 77%, 52%) ;
+    }
+    .div-luxury{
+    height: 450px;
+    width: 300px;
+    background-color:hsl(179, 100%, 13%) ;
+    }
+    .div-suv{
+    height: 450px;
+    width: 300px;
+    background-color:hsl(184, 100%, 22%) ;
+    }
+    img{
+      margin-left: 30px;
+      margin-top : 30px;
+    }
+    h1{
+      margin-left: 30px;
+      font-size: 40px;
+      font-family: 'Big Shoulders Display';
+      font-weight: 700px;
+      color: hsl(0, 0%, 95%);
+    }
+    p1{
+
+    }
+    .button1{
+
+    }
+    .button2{
+
+    }
+    .button3{
+
+    }
