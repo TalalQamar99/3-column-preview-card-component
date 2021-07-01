@@ -7,6 +7,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: row;
     }
     img{
       margin-left: 30px;
@@ -122,6 +123,25 @@
         flex-direction: column ;
         justify-content: center;
         align-items: center;
+                }
+    .div-sedan{
+        height: 450px !important;
+        width: 300px;
+        background-color:hsl(31, 77%, 52%) ;
+        border-top-left-radius: 10px;
+        border-top-right-radius:10px;
+                    }
+    .div-luxury{
+        height: 450px !important;
+        width: 300px;
+        background-color:hsl(179, 100%, 13%) ;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+                    }
+    .div-suv{
+        height: 450px !important;
+        width: 300px;
+        background-color:hsl(184, 100%, 22%) ;
+                    }
             }
-    }
     
