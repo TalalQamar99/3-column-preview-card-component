@@ -3,7 +3,7 @@
 
     .parent-div{
     display: flex;
-    flex-direction: row;
+    /* flex-direction: row; */
     height: 100vh;
     justify-content: center;
     align-items: center;
@@ -114,32 +114,14 @@
         width: 300px;
         background-color:hsl(184, 100%, 22%) ;
         }
-     @media screen and (max-width: 375px) {
+    @media screen and (max-width: 375px) {
     .parent-div{
         display: flex;
         height: 100vh;
+        flex-wrap: wrap;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-                }
-    .div-sedan{
-        height: 450px;
-        width: 300px;
-        background-color:hsl(31, 77%, 52%) ;
-        border-top-left-radius: 10px;
-        border-top-right-radius:10px;
-                }
-    .div-suv{
-        height: 450px;
-        width: 300px;
-        background-color:hsl(184, 100%, 22%) ;
-                }
-    .div-luxury{
-        height: 450px;
-        width: 300px;
-        background-color:hsl(179, 100%, 13%) ;
-        border-bottom-right-radius: 10px;
-        border-bottom-left-radius: 10px;
-                }
+            }
            }
     
